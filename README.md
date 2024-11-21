@@ -11,7 +11,11 @@ A simple to use hashing library in rust
 ```
 use rsha::sha256;
 
+fn main(){
+
 let str = "शा तुम कितनी सुन्दर हो";
 let hash = sha256::hash(str);
 println("{str} -> {hash}");
+
+}
 ```
