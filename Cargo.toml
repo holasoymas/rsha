@@ -2,7 +2,8 @@
 name = "rsha"
 version = "0.1.0"
 edition = "2021"
-
+description = "A sha256 hahing library implementation in rust"
+license = "MIT"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
